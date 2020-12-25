@@ -85,6 +85,7 @@ label{
 	width: 100%;
 }
 
+
 .campo-medio{
 	display: inline-block;
 	padding-right: .5em;
@@ -94,6 +95,7 @@ label{
 	width: 32%;
 	display: inline-block;
 	padding: 10px 0px;
+	position: static;
 }
 
 button{
@@ -111,7 +113,7 @@ button{
     display: block;
     clear: both;
     margin: 10px 0px;
-
+	
 }
 
 button:active{
@@ -120,13 +122,13 @@ button:active{
 }
 
 button[disabled=disabled], button:disabled {
-    background-color: gray;
+	background-color: gray;
 	border-color: darkgray;
-
+	
 }
 
 .adicionar-paciente{
-    margin-top: 30px;
+	margin-top: 30px;
 }
 
 .campo-invalido{
@@ -136,3 +138,4 @@ button[disabled=disabled], button:disabled {
 .paciente-invalido {
 	background-color: lightcoral;
 }
+
