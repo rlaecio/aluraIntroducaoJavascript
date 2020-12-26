@@ -126,6 +126,12 @@ button[disabled=disabled], button:disabled {
 	border-color: darkgray;
 	
 }
+tr:nth-child(even) { 
+	background-color:#EEE;
+}
+tr:hover {
+	background-color:#ADD8E6;
+}
 
 .adicionar-paciente{
 	margin-top: 30px;
@@ -139,7 +145,13 @@ button[disabled=disabled], button:disabled {
 	background-color: lightcoral;
 }
 
+
 #mensagens-erro {
 	background-color: indianred;
 	color: greenyellow;
+}
+
+.fadeOut {
+	opacity: 0;
+	transition: 0.5s;
 }
