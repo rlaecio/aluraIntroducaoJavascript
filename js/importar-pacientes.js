@@ -1,7 +1,7 @@
 var botaoImportar = document.querySelector("#importar-pacientes");
 botaoImportar.addEventListener("click", function(){
     var xhr = new XMLHttpRequest();
-    xhr.open("GET","http://api-pacientes.herokuapp.com/pacientes");
+    xhr.open("GET","https://api-pacientes.herokuapp.com/pacientes");
     xhr.addEventListener("load", function() {
         if (xhr.status == 200) { //valida a busca  
             var resposta = xhr.responseText;
